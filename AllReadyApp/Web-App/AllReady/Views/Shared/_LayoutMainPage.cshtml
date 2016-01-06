@@ -33,18 +33,19 @@
             </div>
         </nav>
     </header>
-
-    <div class="row home-banner">
-        <div class="col-md-12">
-          <div class="center"><img src="~/images/Web-Logo.png" alt="Logo image for the project" class="img-responsive center-block" /></div>
-            <h3 class="text-center sub-title">Get connected. Work together. Be prepared.</h3>
+    <main role="main">
+        <div class="row home-banner">
+            <div class="col-md-12">
+              <div class="center"><img src="~/images/Web-Logo.png" alt="Logo image for the project" class="img-responsive center-block" /></div>
+                <h3 class="text-center sub-title">Get connected. Work together. Be prepared.</h3>
+            </div>
         </div>
-    </div>
-    <div class="row">
-
-        @RenderBody()
-
-    </div>
+        <div class="row">
+    
+            @RenderBody()
+    
+        </div>
+    </main>
     @{
         ViewData["footerCssClass"] = "main-page-footer";
     }
