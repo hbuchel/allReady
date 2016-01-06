@@ -51,11 +51,6 @@ footer > p > img, footer > p > a > img {
     margin-right: 10px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 .date-address {
     color: #555555;
